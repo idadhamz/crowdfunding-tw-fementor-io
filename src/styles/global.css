@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(../assets/fonts/inter-var-latin.woff2) format("woff2");
+}
+
+.img-Hero {
+  background-image: url(../assets/img/image-hero-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+  z-index: 0;
+}
