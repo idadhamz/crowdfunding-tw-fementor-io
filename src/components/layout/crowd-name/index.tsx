@@ -16,9 +16,9 @@ type crowdNameProps = {
 
 const index = (props: crowdNameProps) => {
   return (
-    <div className="w-full h-auto p-10 border rounded-xl bg-white text-center">
+    <div className="w-full h-auto p-10 text-center bg-white border rounded-xl">
       <h1 className="text-4xl font-bold text-black">{props.title}</h1>
-      <p className="text-xl text-gray-500 my-4">{props.title}</p>
+      <p className="my-4 text-xl text-gray-500">{props.title}</p>
       <CrowdStats statsFunding={props.statsFunding} />
     </div>
   );
