@@ -13,7 +13,7 @@ type crowdStatsProps = {
 
 const index = (props: crowdStatsProps) => {
   return (
-    <div className="flex flex-col items-center my-10 space-y-5 sm:flex-row sm:space-x-10">
+    <div className="flex flex-col items-center my-10 sm:flex-row sm:items-center">
       <CrowdStatsItem
         value={`$ ${props.statsFunding.total}`}
         desc="of $100000 target"
